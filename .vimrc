@@ -116,6 +116,7 @@ set backspace=start,eol,indent
 
 " Allow file inline modelines to provide settings
 set modeline
+set modelines=2
 
 set background=dark
 set hlsearch
