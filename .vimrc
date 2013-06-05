@@ -129,7 +129,8 @@ if has("syntax")
   syntax on
 endif
 
-au BufRead,BufNewFile *.json set filetype=json
+au BufRead,BufNewFile *.json set filetype=json tabstop=2 shiftwidth=2
+au BufRead,BufNewFile *.js set filetype=javascript tabstop=2 shiftwidth=2
 au BufRead,BufNewFile *.md set filetype=markdown
 au! Syntax json source ~/.vim/syntax/json.vim
 au! Syntax markdown source ~/.vim/syntax/mkd.vim
