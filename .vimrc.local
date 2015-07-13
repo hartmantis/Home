@@ -1,0 +1,17 @@
+set pastetoggle=<F2>
+vmap <T-c> y
+vmap <T-p> p
+
+if exists("g:did_load_filetypes")
+  filetype off
+  filetype plugin indent off
+endif
+set runtimepath+=/usr/local/go/misc/vim
+filetype plugin indent on
+syntax on
+
+autocmd FileType go set noexpandtab
+autocmd FileType go set tabstop=8
+autocmd FileType go set shiftwidth=8
+autocmd FileType go set softtabstop=8
+autocmd FileType go autocmd BufWritePre <buffer> Fmt

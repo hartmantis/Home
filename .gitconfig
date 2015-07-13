@@ -1,0 +1,15 @@
+[user]
+	name = Jonathan Hartman
+	email = j@p4nt5.com
+[github]
+	user = RoboticCheese
+[color]
+	ui = auto
+[credential]
+	helper = osxkeychain
+[filter "media"]
+	clean = git media clean %f
+	smudge = git media smudge %f
+	required = true
+[push]
+	default = simple

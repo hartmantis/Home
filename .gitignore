@@ -1,0 +1,11 @@
+id_dsa
+id_rsa
+known_hosts
+.supernova
+.vagrant.d/Vagrantfile
+.chef
+.vagrant
+.aws
+.bundle
+.stove
+.ssh
